@@ -5,6 +5,7 @@ const Index = () => {
     <div className="h-screen w-screen flex flex-col items-center justify-center space-y-4">
       <h1 className="text-4xl font-bold">Welcome to the Research Portal</h1>
       <p className="text-lg">Explore our four sub-research projects:</p>
+      <marquee className="text-lg text-blue-500">This is a scrolling text marquee. Welcome to our research portal!</marquee>
       <nav className="space-x-4">
         <Link to="/project1" className="text-blue-500 hover:underline">Project 1</Link>
         <Link to="/project2" className="text-blue-500 hover:underline">Project 2</Link>
